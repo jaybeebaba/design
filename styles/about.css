@@ -1,0 +1,64 @@
+.about-main{
+    margin-top: 70px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 70px auto;
+    gap: 60px;
+    
+}
+
+.about p{
+    margin-top: 20px;
+    line-height: 2rem;
+}
+
+.top{
+    background: white;
+}
+
+.bottom, .what-we-do p{
+    background: #35434A;
+    color: white;
+    padding: 20px;
+    
+}
+
+.web{
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 4px;
+    background: #E6E6E6;
+    padding: 40px;
+}
+
+.web p{
+    line-height: 2rem;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .about{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .web{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .about-main{
+        margin-top: 137px;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .about, .web{
+        width: 99%;
+    }
+}
